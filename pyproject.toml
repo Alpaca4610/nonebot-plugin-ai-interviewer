@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot-plugin-ai-interviewer"
-version = "0.1.0"
+version = "0.1.1"
 description = "A ai-interviewer based on chatgpt"
 authors = ["Alpaca <alpaca@bupt.edu.cn>"]
 license = "MIT"
