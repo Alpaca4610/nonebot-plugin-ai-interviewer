@@ -10,9 +10,9 @@ from .interviewer import Interviewer
 plugin_config = Config.parse_obj(nonebot.get_driver().config.dict())
 
 if not plugin_config.openai_api_key:
-    raise ConfigError("请设置 openai_api_key")
-
-api_key = plugin_config.openai_api_key
+    api_key = ""
+else:
+    api_key = plugin_config.openai_api_key
 model_id = plugin_config.openai_model_name
 session = {}
 
