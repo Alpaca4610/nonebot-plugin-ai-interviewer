@@ -12,6 +12,8 @@
 ## 介绍
 - 本插件基于OpenAI的API开发，在nonebot框架下实现一个聊天式的可自定义面试职位的AI辅助面试官。
 - 本插件具有用户识别功能
+
+![](demo.jpg)
 ## 安装
 
 * 手动安装
@@ -29,7 +31,7 @@
   pip install nonebot-plugin-ai-interviewer
   ```
 
-# 配置文件
+## 配置文件
 
 在Bot根目录下的.env文件中追加如下内容：
 
@@ -44,7 +46,7 @@ OPENAI_MODEL_NAME = True   # AI面试官使用的模型名称
 ```
 
 
-# 使用方法
+## 使用方法
 
 - 初始化AI面试官：（注意，命令中的逗号为中文逗号）
 ```
