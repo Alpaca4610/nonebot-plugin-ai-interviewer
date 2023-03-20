@@ -42,7 +42,7 @@ OPENAI_API_KEY = key
 可选内容：
 ```
 OPENAI_HTTP_PROXY = "http://127.0.0.1:8001"    # 中国大陆/香港IP调用API请使用代理访问api,否则有几率会被封禁
-OPENAI_MODEL_NAME = True   # AI面试官使用的模型名称
+OPENAI_MODEL_NAME = "xxxxx"   # AI面试官使用的模型名称
 ```
 
 
