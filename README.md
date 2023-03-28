@@ -41,10 +41,12 @@ OPENAI_API_KEY = key
 
 可选内容：
 ```
+OPENAI_API_BASE = "https://xxx.xxx.xxx/v1"    # 中国大陆/香港IP调用API可以使用自己的域名代理（注意要有/v1）
 OPENAI_HTTP_PROXY = "http://127.0.0.1:8001"    # 中国大陆/香港IP调用API请使用代理访问api,否则有几率会被封禁
 OPENAI_MODEL_NAME = "xxxxx"   # AI面试官使用的模型名称
 ```
 
+如何使用自己的域名代理？<a href="https://github.com/constself/chatgptProxyAPI/blob/main/docs/cloudflare_workers.md">参考此处</a>
 
 ## 使用方法
 

@@ -26,6 +26,8 @@ class Interviewer:
 
     async def openai_interface(self, msg):
         openai.api_key = self.api_key
+        if plugin_config.openai_api_base:
+            openai.api_base = plugin_config.openai_api_base
         if plugin_config.openai_http_proxy:
             openai.proxy = {'http': plugin_config.openai_http_proxy, 'https': plugin_config.openai_http_proxy}
 
